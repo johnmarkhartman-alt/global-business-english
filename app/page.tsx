@@ -40,9 +40,14 @@ export default function Home() {
           <li>✓ English and Vietnamese support</li>
         </ul>
 
-        <button className="bg-blue-600 text-white px-6 py-3 rounded-lg">
-          Start Free Trial
-        </button>
+        <a
+  href="https://fabulous-puppy-bb7e30.netlify.app/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition"
+>
+  Start Free Trial
+</a>
       </section>
 
       <section>
