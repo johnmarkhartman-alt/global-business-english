@@ -69,13 +69,26 @@ export default function Home() {
           SoundStar
         </h2>
 
-        <p className="text-xl mb-4">
-          Pronunciation assessment and reporting for young learners.
+        <p className="text-xl mb-6">
+          AI pronunciation coach for Vietnamese students aged 8–12.
+          Instant feedback on TH sounds, R sounds, vowels, and more.
         </p>
 
-        <div className="inline-block bg-yellow-100 px-4 py-2 rounded">
-          Coming Soon
-        </div>
+        <ul className="space-y-2 mb-6">
+          <li>✓ 9 pronunciation focus areas</li>
+          <li>✓ AI-powered personalised feedback</li>
+          <li>✓ Teacher dashboard included</li>
+          <li>✓ New word lists added monthly</li>
+        </ul>
+
+        
+          href="https://sound-star.vercel.app"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-700 transition"
+        >
+          Try SoundStar →
+        </a>
       </section>
 
     </main>
